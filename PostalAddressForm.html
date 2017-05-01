@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Postal address form</title>
+        <h2>Postal address form</h2>
+    </head>
+
+    <body>
+        <form>
+             <fieldset>
+                <legend>Address</legend>           
+                
+                <!-- Unit/Apartment -->
+                <label for="Unit or apartment">Unit or apartment</label>
+                <input name="Unit or apartment" id="Unit or apartment"><br><br>
+                
+                <!-- Building name -->
+                <label for="Building name">Building name</label>
+                <input name="Building name" id="Building name"><br><br>
+
+                <!-- Street number and Street name -->
+                <label for="Street number and Street name">Street number and Street name</label>
+                <input name="Street number and Street name" id="Street number and Street name"><br><br>
+
+                <!-- Suburb -->
+                <label for="Suburb">Suburb</label>
+                <input name="Suburb" id="Suburb"><br><br>
+
+                <!-- Postcode -->
+                <label for="Postcode">Postcode</label>
+                <input name="Postcode" id="Postcode"><br><br>
+
+                <!-- City -->
+                <label for="City">City</label>
+                <input name="City" id="City"><br><br>
+
+                <!-- State -->
+                <label for="State">State</label>
+                <input name="State" id="State"><br><br>
+
+                <!-- Country -->
+                <label for="Country">Country</label>
+                <input name="Country" list="Country_name">
+                <datalist id="Country_name">
+                    <option value="Afghanistan">
+                    <option value="Albania">
+                    <option value="Algeria">
+                    <option value="Andorra">
+                    <option value="Armenia">
+                    <option value="Australia">
+                    <option value="Austria">
+                    <option value="Azerbaijan">
+                    <!-- etc. -->
+                </datalist>
+            </fieldset>
+            <p>
+                <input type="submit"value="Submit">
+            </p>
+        </form>
+    </body>
+</html>
